@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.carmen.helloandroid.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/spark"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/techspark" />
+
+    <ImageView
+        android:id="@+id/ulogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="#FFFFFF"
+        android:src="@drawable/udacitylogo2" />
+
+    <TextView
+        android:id="@+id/empower"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ulogo"
+        android:background="#00BFFF"
+        android:fontFamily="sans-serif"
+        android:paddingLeft="25dp"
+        android:paddingTop="10dp"
+        android:text="Empowering You"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/futures"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/empower"
+        android:background="#00BFFF"
+        android:fontFamily="sans-serif"
+        android:paddingBottom="10dp"
+        android:paddingLeft="50dp"
+        android:paddingRight="5dp"
+        android:text="Sparking Bold Futures"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/company"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/addr"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="25dp"
+        android:fontFamily="sans-serif"
+        android:text="Udacity"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/addr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/cty"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="25dp"
+        android:fontFamily="sans-serif"
+        android:text="2465 Latham St"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/cty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/tel"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="25dp"
+        android:fontFamily="sans-serif"
+        android:text="Mountain View, CA 94043"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/tel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/web"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="25dp"
+        android:fontFamily="sans-serif"
+        android:text="650-555-5555"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/web"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="25dp"
+        android:autoLink="web"
+        android:fontFamily="sans-serif"
+        android:text="www.udacity.com"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" />
+
+</RelativeLayout>
